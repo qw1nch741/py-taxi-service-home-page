@@ -2,24 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Taxi Service</title>
 </head>
 <body>
     {% block content %}
-        <ul>
-            <li>
-                <a href="{% url 'taxi:index' %}">Home page</a>
-            </li>
-            <li>
-                <a href="#">Manufacturers</a>
-            </li>
-            <li>
-                <a href="#">Cars</a>
-            </li>
-            <li>
-                <a href="#">Drivers</a>
-            </li>
-        </ul>
+        {% include "includes/sidebar.html" %}
     {% endblock %}
 </body>
 </html>

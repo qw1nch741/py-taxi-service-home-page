@@ -20,5 +20,3 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include(("taxi.urls", "taxi"), namespace="taxi"))
 ]
-
-app_name = "taxi"
