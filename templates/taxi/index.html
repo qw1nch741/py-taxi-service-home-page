@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Taxi Service</title>
-</head>
-<body>
-    {% block content %}
-        {% include "includes/sidebar.html" %}
-    {% endblock %}
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+    {% include "includes/sidebar.html" %}
+{% endblock %}
